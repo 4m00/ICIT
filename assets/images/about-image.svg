@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+    <style>
+        .animated {
+            animation: pulse 3s ease-in-out infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+    <g class="animated">
+        <circle cx="400" cy="300" r="200" fill="#0d6efd" opacity="0.1"/>
+        <rect x="250" y="200" width="300" height="200" rx="10" fill="#ffffff" stroke="#0d6efd" stroke-width="2"/>
+        <line x1="280" y1="240" x2="520" y2="240" stroke="#e9ecef" stroke-width="2"/>
+        <line x1="280" y1="280" x2="520" y2="280" stroke="#e9ecef" stroke-width="2"/>
+        <line x1="280" y1="320" x2="520" y2="320" stroke="#e9ecef" stroke-width="2"/>
+        <circle cx="400" cy="150" r="50" fill="#0d6efd"/>
+        <path d="M385,140 L415,160 L385,180" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+    </g>
+</svg> 
